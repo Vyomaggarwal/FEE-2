@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do App</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="TODO.css">
+</head>
+<body>
+    <div class="container my-5">
+        <h2 class="text-center">To-Do List</h2>
+        <form id="todoForm" class="mb-4">
+            <div class="input-group">
+                <input type="text" id="todoInput" class="form-control" placeholder="Add a new task" required>
+                <button type="submit" class="btn btn-primary">Add</button>
+            </div>
+        </form>
+        
+        <ul id="todoList" class="list-group"></ul>
+    </div>
+
+    <script src="TODO.js"></script>
+</body>
+</html>
